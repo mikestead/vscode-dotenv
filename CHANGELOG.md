@@ -1,7 +1,6 @@
 # Change Log
 All notable changes to the "dotenv" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+## 1.0.0
+### Added
+- Bundling https://github.com/zaynali53/DotENV for vscode extension
