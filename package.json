@@ -1,0 +1,35 @@
+{
+    "name": "dotenv",
+    "displayName": "dotenv",
+    "description": "Support for dotenv file syntax",
+    "version": "0.0.1",
+    "publisher": "mikestead",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+		"color": "#3E1661",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikestead/vscode-dotenv.git"
+	},
+    "contributes": {
+        "languages": [{
+            "id": "dotenv",
+            "aliases": ["Environment Variables", "dotenv", "env"],
+            "extensions": [".env"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dotenv",
+            "scopeName": "source.dotenv",
+            "path": "./syntaxes/dotenv.tmLanguage"
+        }]
+    }
+}
