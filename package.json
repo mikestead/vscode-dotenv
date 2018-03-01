@@ -28,7 +28,29 @@
         "languages": [{
             "id": "dotenv",
             "aliases": ["Environment Variables", "dotenv", "env"],
-            "extensions": [".env", ".env-sample", ".env.example", ".env.local", ".env.dev", ".env.test", ".env.testing", ".env.production"],
+            "extensions": [
+                ".env",
+                ".env-sample",
+                ".env.example",
+                ".env.local",
+                ".env.dev",
+                ".env.dev.local",
+                ".env.development",
+                ".env.development.local",
+                ".env.test",
+                ".env.test.local",
+                ".env.testing",
+                ".env.qa",
+                ".env.qa.local",
+                ".env.uat",
+                ".env.uat.local",
+                ".env.stag",
+                ".env.stag.local",
+                ".env.staging",
+                ".env.staging.local",
+                ".env.production",
+                ".env.production.local"
+            ],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
