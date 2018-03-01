@@ -2,7 +2,7 @@
     "name": "dotenv",
     "displayName": "DotENV",
     "description": "Support for dotenv file syntax",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "publisher": "mikestead",
     "license": "MIT",
     "engines": {
