@@ -2,7 +2,7 @@
     "name": "dotenv",
     "displayName": "DotENV",
     "description": "Support for dotenv file syntax",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "mikestead",
     "license": "MIT",
     "engines": {
@@ -17,46 +17,54 @@
     ],
     "icon": "images/icon.png",
     "galleryBanner": {
-		"color": "#3E1661",
-		"theme": "dark"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mikestead/vscode-dotenv.git"
-	},
+        "color": "#3E1661",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mikestead/vscode-dotenv.git"
+    },
     "contributes": {
-        "languages": [{
-            "id": "dotenv",
-            "aliases": ["Environment Variables", "dotenv", "env"],
-            "extensions": [
-                ".env",
-                ".env-sample",
-                ".env.example",
-                ".env.local",
-                ".env.dev",
-                ".env.dev.local",
-                ".env.development",
-                ".env.development.local",
-                ".env.test",
-                ".env.test.local",
-                ".env.testing",
-                ".env.qa",
-                ".env.qa.local",
-                ".env.uat",
-                ".env.uat.local",
-                ".env.stag",
-                ".env.stag.local",
-                ".env.staging",
-                ".env.staging.local",
-                ".env.production",
-                ".env.production.local"
-            ],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "dotenv",
-            "scopeName": "source.env",
-            "path": "./syntaxes/env.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "dotenv",
+                "aliases": [
+                    "Environment Variables",
+                    "dotenv",
+                    "env"
+                ],
+                "extensions": [
+                    ".env",
+                    ".env-sample",
+                    ".env.example",
+                    ".env.local",
+                    ".env.dev",
+                    ".env.dev.local",
+                    ".env.development",
+                    ".env.development.local",
+                    ".env.test",
+                    ".env.test.local",
+                    ".env.testing",
+                    ".env.qa",
+                    ".env.qa.local",
+                    ".env.uat",
+                    ".env.uat.local",
+                    ".env.stag",
+                    ".env.stag.local",
+                    ".env.staging",
+                    ".env.staging.local",
+                    ".env.production",
+                    ".env.production.local"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dotenv",
+                "scopeName": "source.env",
+                "path": "./syntaxes/env.tmLanguage"
+            }
+        ]
     }
 }
