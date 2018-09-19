@@ -54,7 +54,8 @@
                     ".env.staging",
                     ".env.staging.local",
                     ".env.production",
-                    ".env.production.local"
+                    ".env.production.local",
+                    ".env.dist"
                 ],
                 "configuration": "./language-configuration.json"
             }
