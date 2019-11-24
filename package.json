@@ -34,12 +34,15 @@
                     "env"
                 ],
                 "extensions": [
+                    ".flaskenv",
                     ".env",
                     ".env-sample",
                     ".env.example",
                     ".env.local",
                     ".env.dev",
                     ".env.dev.local",
+                    ".env.build",
+                    ".env.build.local",
                     ".env.development",
                     ".env.development.local",
                     ".env.test",
@@ -51,11 +54,16 @@
                     ".env.uat.local",
                     ".env.stag",
                     ".env.stag.local",
+                    ".env.stage",
+                    ".env.stage.local",
                     ".env.staging",
                     ".env.staging.local",
+                    ".env.live",
+                    ".env.live.local",
                     ".env.production",
                     ".env.production.local",
-                    ".env.prod"
+                    ".env.prod",
+                    ".env.prod.local"
                 ],
                 "configuration": "./language-configuration.json"
             }
