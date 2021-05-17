@@ -38,6 +38,7 @@
                     ".env",
                     ".env-sample",
                     ".env.example",
+                    ".env.template",
                     ".env.local",
                     ".env.dev",
                     ".env.dev.local",
