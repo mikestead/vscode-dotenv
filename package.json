@@ -65,6 +65,12 @@
                     ".env.prod",
                     ".env.prod.local"
                 ],
+                "filenamePatterns": [
+                    "?*env"
+                ],
+                "filenames": [
+                    "env"
+                ],
                 "configuration": "./language-configuration.json"
             }
         ],
