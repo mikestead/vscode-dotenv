@@ -9,7 +9,7 @@
         "vscode": "^1.5.1"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "keywords": [
         "env",
@@ -64,6 +64,12 @@
                     ".env.production.local",
                     ".env.prod",
                     ".env.prod.local"
+                ],
+                "filenamePatterns": [
+                    "?*env"
+                ],
+                "filenames": [
+                    "env"
                 ],
                 "configuration": "./language-configuration.json"
             }
